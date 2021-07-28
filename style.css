@@ -1,0 +1,128 @@
+* {
+     margin:0;
+     padding:0;
+     box-sizing:border-box ;
+     direction:rtl;
+ }
+ 
+@font-face {
+    font-family:'dubai';
+    src:url();
+    font-family:'hanimation';
+    src:url();
+}
+
+a {
+    text-decoration:none ;
+}
+
+
+header {
+    width:100%;
+    height:300px;
+    background-image:url('https://i.suar.me/vqxLw/l');
+    background-repeat:no-repeat ;
+    background-position:cover;
+    background-size:100%;
+    margin-bottom:0;
+    padding-top:50px;
+    background-color:#000;
+}
+
+
+.white_border {
+    width:90%;
+    max-width:520px;
+    height:auto;
+    padding:20px;
+    margin-left:auto ;
+    margin-right:auto ;
+    /*border:3.5px #FFF solid;*/
+    color:#FFF;
+    font-family:'dubai';
+    
+}
+
+.white_border h1 {
+    font-size:30px;
+    text-align:center ;
+    font-family:'cairo-bold';
+    animation:title-load 0.5s ease-in;
+}
+
+.white_border h4 {
+    font-family:'dubai-light';
+    text-align:center ;
+    animation:title-load_2 0.5s ease-in;
+}
+
+
+.white_border hr {
+    margin-top:3px;
+    margin-right:auto ;
+    margin-left:auto;
+    margin-bottom:10px;
+    animation:nav-load-link 0.5s ease-in;
+}
+
+
+
+
+
+@keyframes title-load {
+    0% {
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        transform:translateY(0);
+    }
+}
+
+@keyframes title-load_2 {
+    0% {
+        transform: translateX(+200%);
+    }
+    
+    100% {
+        transform:translateY(0);
+    }
+}
+
+
+
+
+
+@keyframes nav-load-link {
+    0% {
+    width:0;
+    }
+
+    100% {
+    width:90%;
+    }
+}
+
+
+.description {
+    width:100%;
+    margin-top:20px;
+    padding-top:0;
+}
+
+.description p {
+    width:95%;
+    margin-right:auto ;
+    margin-left:auto ;
+    margin-top:0;
+    padding-top:0;
+    max-width:700px;
+    font-family:'dubai';
+    font-size:16px;
+    color:#00001a;
+}
+
+
+
+
+
