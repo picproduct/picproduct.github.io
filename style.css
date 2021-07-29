@@ -37,12 +37,9 @@ header {
     padding:20px;
     margin-left:auto ;
     margin-right:auto ;
-    border:3.5px #FFF solid;
+    /*border:3.5px #FFF solid;*/
     color:#FFF;
     font-family:'dubai';
-    border-image-source: url(('https://presenceasoi.be/wp-content/uploads/2017/07/cadre.png');
-    border-image-slice: 20;
-    border-image-width: 20;
     
 }
 
@@ -123,6 +120,79 @@ header {
     font-family:'dubai';
     font-size:16px;
     color:#00001a;
+    animation:load-txt 1s ease-out;
+}
+
+
+@keyframes load-txt {
+    0% {
+        opacity:0;
+        margin-top:200px;
+    }
+    
+    100% {
+        opacity:100%;
+        margin-top:20px;
+    }
+}
+
+
+.services {
+    margin:0 auto 0 auto;
+    padding:100px 2.5% 100px 2.5%;
+    width:100%;
+    height:auto; 
+    max-width:1200px;
+    display:flex; 
+    flex-wrap:wrap; 
+    align-content:space-between;
+}
+
+.service_container {
+    width:96%;
+    max-width:290px; 
+    height:400px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top:40px; 
+    margin-bottom:0;
+    background-color:#fff;
+    box-shadow:1px 5px 5px #005461;
+    border:1px solid #CCC;
+    display :block; 
+}
+
+.service_container .service_img_container {
+    width:70px; 
+    height:70px; 
+    border-radius:50%;
+    margin-top:2px; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-bottom:0;
+}
+
+.service_container .service_img_container img {
+    width:100%;
+    height:100%;
+}
+
+.service_container h4 {
+    font-size:17px; 
+    color:#C7329D;
+    margin-top:25px; 
+    line-height:10px; 
+    text-align:center; 
+    word-spacing:2px; 
+}
+
+.service_container p {
+    font-size:14px; 
+    max-width:290px; 
+    margin:15px auto 0 auto; 
+    color:#777;
+    text-align:center; 
+    font-weight:300px; 
 }
 
 
