@@ -46,11 +46,11 @@ header {
 .white_border h1 {
     font-size:30px;
     text-align:center ;
-    font-family:'cairo-bold';
+    font-family:'dubai-light';
     animation:title-load 0.5s ease-in;
 }
 
-.white_border h4 {
+.white_border h2 {
     font-family:'dubai-light';
     text-align:center ;
     animation:title-load_2 0.5s ease-in;
@@ -61,7 +61,9 @@ header {
     margin-top:3px;
     margin-right:auto ;
     margin-left:auto;
-    margin-bottom:10px;
+    margin-bottom:3px;
+    height:6px;
+    background-color:#FFF;
     animation:nav-load-link 0.5s ease-in;
 }
 
@@ -99,100 +101,68 @@ header {
     }
 
     100% {
-    width:90%;
-    }
-}
-
-
-.description {
     width:100%;
-    margin-top:20px;
-    padding-top:0;
-}
-
-.description p {
-    width:95%;
     margin-right:auto ;
-    margin-left:auto ;
-    margin-top:0;
-    padding-top:0;
-    max-width:700px;
-    font-family:'dubai';
-    font-size:16px;
-    color:#00001a;
-    animation:load-txt 1s ease-out;
-}
-
-
-@keyframes load-txt {
-    0% {
-        opacity:0;
-        margin-top:200px;
-    }
-    
-    100% {
-        opacity:100%;
-        margin-top:20px;
+    margin-left:auto;
     }
 }
 
 
-.services {
-    margin:0 auto 0 auto;
-    padding:100px 2.5% 100px 2.5%;
-    width:100%;
-    height:auto; 
-    max-width:1200px;
-    display:flex; 
-    flex-wrap:wrap; 
-    align-content:space-between;
+.benefits_title {
+    color:#337777;
+    width:197px;
+    padding-bottom:10px;
+    margin-right:auto ;
+    margin-left:auto;
+    font-family:'dubai-bold';
+    align:center ;
+    line-height:35px;
+    margin-top:50px;
+    border-bottom:4px  #337777 solid;
 }
 
-.service_container {
-    width:96%;
-    max-width:290px; 
-    height:400px;
-    margin-left:auto; 
-    margin-right:auto;
-    margin-top:40px; 
-    margin-bottom:0;
-    background-color:#fff;
-    box-shadow:1px 5px 5px #005461;
-    border:1px solid #CCC;
-    display :block; 
+
+.pic_benefits {
+    display:flex;
+    flex-wrap:wrap;
+    width:98%;
+    margin-right:auto ;
+    margin-left:auto;
+    padding-top:50px;
 }
 
-.service_container .service_img_container {
-    width:70px; 
-    height:70px; 
-    border-radius:50%;
-    margin-top:2px; 
-    margin-left:auto; 
-    margin-right:auto; 
-    margin-bottom:0;
+
+.pic_benefits .img_cnt {
+    width:95%;
+    min-height:180px;
+    max-width:480px;
+    margin-right:auto ;
+    margin-left:auto;
+    background-color:#000;
 }
 
-.service_container .service_img_container img {
+
+.pic_benefits .img_cnt img {
     width:100%;
     height:100%;
+    background-color:#000;
 }
 
-.service_container h4 {
-    font-size:17px; 
-    color:#C7329D;
-    margin-top:25px; 
-    line-height:10px; 
-    text-align:center; 
-    word-spacing:2px; 
+
+.pic_benefits .benfits_txt_cnt {
+    font-family:'dubai';
+    padding-top:20px;
+    max-width:480px;
 }
 
-.service_container p {
-    font-size:14px; 
-    max-width:290px; 
-    margin:15px auto 0 auto; 
-    color:#777;
-    text-align:center; 
-    font-weight:300px; 
+.pic_benefits .benfits_txt_cnt ul {
+    padding:25px;
+    padding-top:0;
+    list-style-type:decimal ;
+}
+.pic_benefits .benfits_txt_cnt ul li {
+    padding-top:5px;
+    margin-right:3px;
 }
 
 
