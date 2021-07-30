@@ -135,7 +135,7 @@ header {
 .pic_benefits .img_cnt {
     width:95%;
     height:180px;
-    max-width:480px;
+    max-width:450px;
     margin-right:auto ;
     margin-left:auto;
     background-color:#000;
@@ -152,7 +152,7 @@ header {
 .pic_benefits .benfits_txt_cnt {
     font-family:'dubai';
     padding-top:20px;
-    max-width:480px;
+    max-width:450px;
 }
 
 .pic_benefits .benfits_txt_cnt ul {
@@ -167,7 +167,7 @@ header {
 
 
 
-@media screen and (min-width:900px) {
+@media screen and (min-width:950px) {
     header {
         height:600px;
     }
