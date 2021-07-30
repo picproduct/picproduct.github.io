@@ -3,6 +3,7 @@
      padding:0;
      box-sizing:border-box ;
      direction:rtl;
+     font-family:'dubai';
  }
  
 @font-face {
@@ -44,7 +45,7 @@ header {
 }
 
 .white_border h1 {
-    font-size:30px;
+    /*font-size:30px;*/
     text-align:center ;
     font-family:'dubai-light';
     animation:title-load 0.5s ease-in;
@@ -117,7 +118,7 @@ header {
     font-family:'dubai-bold';
     align:center ;
     line-height:35px;
-    margin-top:50px;
+    margin-top:50px; 
     border-bottom:4px  #337777 solid;
 }
 
@@ -126,19 +127,23 @@ header {
     display:flex;
     flex-wrap:wrap;
     width:98%;
+    height:730px; 
     margin-right:auto ;
     margin-left:auto;
-    padding-top:50px;
+    padding-top:20px;
+}
+
+.second {
+	display :none; 
 }
 
 
 .pic_benefits .img_cnt {
     width:95%;
     height:180px;
-    max-width:400px;
+    max-width:450px;
     margin-right:auto ;
     margin-left:auto;
-    background-color:#000;
 }
 
 
@@ -153,38 +158,70 @@ header {
     font-family:'dubai';
     padding-top:20px;
     max-width:400px;
+    max-height:400px; 
 }
 
 .pic_benefits .benfits_txt_cnt ul {
     padding:25px;
-    padding-top:0;
+    padding-top:10px;
     list-style-type:decimal ;
 }
 .pic_benefits .benfits_txt_cnt ul li {
     padding-top:5px;
-    margin-right:3px;
+    margin-bottom:10px;
 }
 
 
+.blog_cnt .blog_title {
+    width:287px;
+    text-align:center;
+}
 
-@media screen and (min-width:950px) {
-    header {
-        height:480px;
-    }
-    
-    .pic_benefits .img_cnt {
-        height:400px;
-        margin-right:25px;
-    }
-    .pic_benefits .benfits_txt_cnt {
-        height:400px; 
-    }
-    .pic_benefits .benfits_txt_cnt ul li {
-        border-bottom:1px solid #337777;
-        padding-bottom:20px;
-    }
+.blog_cnt .txt_cnt {
+    max-width:320px;
+    margin-right:auto ;
+    margin-left:auto ;
+}
+
+.blog_cnt p {
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 
-
-
+@media all and (min-width:900px) {
+	body{
+		background :#FFF; 
+	}
+	.pic_benefits {
+		height:420px; 
+		margin-top:50px; 
+		background :yellow; 
+	}
+	
+	 .pic_benefits .img_cnt {
+		height:340px; 
+		margin-top:40px; 
+	}
+	
+	.pic_benefits .benfits_txt_cnt {
+		padding-top:20px;
+	}
+	.pic_benefits .benfits_txt_cnt ul {
+    	padding:5px;
+    	padding-top:10px;
+   	 list-style-type:none ;
+	}
+	.pic_benefits .benfits_txt_cnt ul li {
+    	padding-bottom:5px; 
+    	margin-bottom:0px; .
+    	border-bottom:5px #000 solid; 
+}
+	.second {
+	display :block; 
+	margin-top:20px; 
+}
+	.first {
+	display :none; 
+}
+}
