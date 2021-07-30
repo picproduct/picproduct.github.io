@@ -134,7 +134,7 @@ header {
 
 .pic_benefits .img_cnt {
     width:95%;
-    min-height:180px;
+    height:180px;
     max-width:480px;
     margin-right:auto ;
     margin-left:auto;
@@ -165,6 +165,23 @@ header {
     margin-right:3px;
 }
 
+
+
+@media screen and (min-width:900px;) {
+    header {
+        height:600px;
+    }
+    
+    .pic_benefits .img_cnt {
+        height:400px;
+        margin-left:20px;
+    }
+    
+    .pic_benefits .benfits_txt_cnt ul li {
+        border-bottom:1px solid #337777;
+        padding-bottom:20px;
+    }
+}
 
 
 
