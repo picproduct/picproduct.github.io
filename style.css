@@ -176,7 +176,9 @@ header {
         height:400px;
         margin-right:25px;
     }
-    
+    .pic_benefits .benfits_txt_cnt {
+        height:400px; 
+    }
     .pic_benefits .benfits_txt_cnt ul li {
         border-bottom:1px solid #337777;
         padding-bottom:20px;
