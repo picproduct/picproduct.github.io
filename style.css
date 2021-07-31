@@ -26,8 +26,7 @@ header {
     background-position:cover;
     background-size:100%;
     margin-bottom:0;
-    padding-top:50px;
-    background-color:#000;
+    padding-top:20px;
 }
 
 
@@ -118,7 +117,7 @@ header {
     font-family:'dubai-bold';
     align:center ;
     line-height:35px;
-    margin-top:50px; 
+    margin-top:30px; 
     border-bottom:4px  #337777 solid;
 }
 
@@ -232,6 +231,7 @@ header {
 	width:100%;
 	margin:80px auto 0 auto;
 	color:#FFF; 
+	padding-top:30px; 
 }
 .all_services_container {
     width:100%;
@@ -280,7 +280,55 @@ header {
     text-align:center; 
     font-weight:300px; 
 }
+.contact_title {
+	margin:50px auto 0 auto; 
+    width:150px;
+    padding-bottom:10px;
+    font-family:'dubai-bold';
+    line-height:35px;
+    border-bottom:4px  #FFF solid;
+}
+.contact {
+	margin:40px auto 0 auto; 
+	height:480px; 
+	width:100%;
+	padding-right:20px;
+	display :flex; 
+	flex-wrap:wrap; 
+}
 
+.contact p {
+	
+	padding-right:20px; 
+	padding-bottom:30px; 
+}
+
+
+.contact_inf {
+	width:98%;
+	max-width:320px; 
+}
+
+span {
+	margin-left:20px; 
+}
+
+
+.numbers {
+	text-align:center; 
+}
+
+.numbers span {
+	margin:0;
+}
+footer {
+	height:40px; 
+	background:#000; 
+	color:#FFF; 
+	width:100%;
+	line-height:40px; 
+	text-align:center; 
+}
 
 @media all and (min-width:900px) {
     body{
@@ -350,5 +398,18 @@ header {
     
     .serv_title {
     	margin-bottom:30px; 
+    }
+    
+    .contact {
+    	height:200px; 
+    	width:72%;
+    	padding-bottom:20px; 
+    }
+    .numbers {
+    	text-align:left; 
+    	
+    }
+    .numbers span {
+    	margin-left:20px; 
     }
 }
