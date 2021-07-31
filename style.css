@@ -20,41 +20,48 @@ a {
 
 header {
     width:100%;
-    height:300px;
-    background-image:url('https://i.suar.me/vqxLw/l');
-    background-repeat:no-repeat ;
-    background-position:cover;
-    background-size:100%;
+    height:700px;
+    display:flex; 
+    flex-wrap:wrap; 
     margin-bottom:0;
-    padding-top:50px;
-    background-color:#000;
+    padding-top:0px;
+    
 }
 
 
 .white_border {
-    width:90%;
-    max-width:520px;
-    height:auto;
-    padding:20px;
+    width:100%;
+    height:300px; 
+    padding:0px;
     margin-left:auto ;
     margin-right:auto ;
     /*border:3.5px #FFF solid;*/
     color:#FFF;
     font-family:'dubai';
-    
+    background :#000;
 }
 
 .white_border h1 {
     /*font-size:30px;*/
     text-align:center ;
     font-family:'dubai-light';
-    animation:title-load 0.5s ease-in;
+    /*animation:title-load 0.5s ease-in;*/
+    position :relative; 
+    top:10px; 
 }
 
 .white_border h2 {
     font-family:'dubai-light';
     text-align:center ;
-    animation:title-load_2 0.5s ease-in;
+    position :relative; 
+    top:200px; 
+    /*animation:title-load_2 0.5s ease-in;*/
+}
+
+header .txt_cnt {
+	background :#FFF; 
+	color:#000;
+	padding-right:10px; 
 }
 
 
@@ -215,7 +222,7 @@ header {
 
 
 .serv_title {
-    color:#FFF;
+    color:#000;
     width:120px;
     padding-bottom:10px;
     margin-right:auto ;
@@ -228,10 +235,11 @@ header {
 }
 
 .serv_sec {
-	background-color:#337777;
+	background-color:#FFF;
 	width:100%;
 	margin:80px auto 0 auto;
-	color:#FFF; 
+	color:#000; 
+	padding-top:30px; 
 }
 .all_services_container {
     width:100%;
@@ -281,21 +289,53 @@ header {
     font-weight:300px; 
 }
 
+.contact {
+	height:400px; 
+	margin-top:0;
+	pasding-top:50px; 
+	background :#CCC; 
+	color:#000;
+}
 
+.contact h1 {
+	width:180px;
+    padding-bottom:10px;
+    margin-right:20px; 
+    font-family:'dubai-bold';
+    line-height:35px;
+    border-bottom:4px  #FFF solid;
+}
+
+.contact p {
+	margin-right:20px; 
+}
 @media all and (min-width:900px) {
     body{
         background :#FFF; 
     }
     header {
-        height:450px;
-        padding-top:100px; 
+        height:200px; 
+        
+    }
+    .white_border {
+    	height:200px; 
+    	width:38%;
+    	margin-right:0;
+    }
+    header .txt_cnt  {
+    	width:60%;
+    	padding-top:50px; 
+   }
+   
+   .white_border h2 {
+   	position :relative; 
+   	top:100px; 
     }
     .pic_benefits {
         width:100%;
         height:480px; 
         margin-top:0px; 
         padding-bottom:50px; 
-        background:#CCC; 
     }
     
      .pic_benefits .img_cnt {
