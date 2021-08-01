@@ -4,6 +4,7 @@
      box-sizing:border-box ;
      direction:rtl;
      font-family:'dubai';
+     
  }
  
 @font-face {
@@ -21,12 +22,13 @@ a {
 header {
     width:100%;
     height:300px;
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR7lrPGXKrsve8KywQ8RBkqe8KcYzeh3b8bQ&usqp=CAU');
+    background-image:url('back.jpg');
     background-repeat:no-repeat ;
     background-position:cover;
     background-size:100%;
     margin-bottom:0;
     padding-top:20px;
+    direction :rtl; 
 }
 
 
@@ -130,7 +132,8 @@ header {
     height:730px; 
     margin-right:auto ;
     margin-left:auto;
-    padding-top:20px;
+    padding-top:0px;
+    background :#FFF; 
 }
 
 .second {
@@ -143,7 +146,7 @@ header {
     height:180px;
     /*max-width:450px;*/
     margin-right:auto ;
-    margin-left:auto;
+    margin-left:auto; 
 }
 
 
@@ -151,6 +154,7 @@ header {
     width:100%;
     height:100%;
     background-color:#000;
+    margin-top:0;
 }
 
 
@@ -227,7 +231,7 @@ header {
 }
 
 .serv_sec {
-	background-image:linear-gradient(to bottom,#800000, #000); 
+	background:#000;
 	width:100%;
 	margin:80px auto 0 auto;
 	color:#FFF; 
@@ -330,9 +334,17 @@ footer {
 	text-align:center; 
 }
 
+.contact_sec {
+	color:#FFF; 
+}
+
 @media all and (min-width:900px) {
-    body{
-        background :#FFF; 
+    .pg_container{
+        background :#800000; 
+        padding-left:20px; 
+        padding-right:20px; 
+        padding-top:20px; 
+        margin-top:0;
     }
     header {
         height:450px;
@@ -341,20 +353,26 @@ footer {
     .pic_benefits {
         width:100%;
         height:480px; 
-        margin-top:0px; 
-        padding-bottom:50px; 
+        margin-top:30px; 
+        padding-bottom:0px; 
     }
     
      .pic_benefits .img_cnt {
-        height:330px; 
+        height:480px; 
         background :#000;
         width:48%;
-        margin-top:50px; 
+        margin-top:0px; 
+        margin-left:0;
+        background :#800000;
+    }
+    
+    .pic_benefits .img_cnt img {
     }
     
     .pic_benefits .benfits_txt_cnt {
         padding-top:20px;
         width:48%;
+        height:390px; 
     }
     .pic_benefits .benfits_txt_cnt ul {
         padding:5;
@@ -378,16 +396,24 @@ footer {
     }
     .blog_cnt {
         height:400px; 
-        margin-top:20px; 
+        margin-top:30px; 
+        width:100%;
+        background :#FFF; 
     }
     
     .blog_cnt .txt_cnt {
         width:48%;
     }
     .blog_cnt .img_cnt {
-        height:290px; 
+        height:400px; 
         width:48%;
-        margin-top:50px; 
+        margin-top:0px; 
+        margin-left:0;
+        background :#800000;
+    }
+    .blog_cnt .img_cnt  img {
+    	height:100%;
+    	margin:0;
     }
     
     .serv_sec {
